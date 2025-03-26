@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-right {
+  display: flex;
+  flex-direction: column;
+  width: 77.9%;
+}
+
+.flex-bottom {
+  flex: 1;
+}

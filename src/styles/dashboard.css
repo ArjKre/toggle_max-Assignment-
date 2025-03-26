@@ -1,0 +1,54 @@
+.dashboard {
+  height: 100%;
+  width: 100%;
+  background-color: #171b2d;
+}
+
+.title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 28px;
+  color: #9197b5;
+}
+
+.notification-section {
+  padding-top: 20px;
+  padding-inline: 40px;
+}
+
+.alert-cnct {
+  max-height: 89px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 27px;
+  padding: 17px;
+  border-radius: 14px;
+  background-color: #e8b75a;
+}
+
+.alert-msg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -1%;
+  color: #5d3c00;
+}
+
+.request-btn {
+  padding: 14px 23px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background-color: #452e05;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: -1%;
+  cursor: pointer;
+}
