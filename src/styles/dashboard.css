@@ -66,3 +66,110 @@
   flex-direction: row;
   gap: 26px;
 }
+
+.statistic-section {
+  padding-top: 40px;
+  padding-inline: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.statistic-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}
+
+.statistic-card-header {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.wrapper-flx,
+.linechart {
+  padding: 24px;
+}
+
+.wrapper-flx-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+
+.wrapper-flx-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  position: relative;
+}
+
+.text,
+.amount {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  color: #a0a0a0;
+}
+
+.line {
+  height: 68px;
+  border: 0.5px solid #ffffff;
+  opacity: 0.1;
+}
+
+.amount {
+  color: #ffffff;
+}
+
+.subheading,
+.detail {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  color: #87888c;
+}
+
+.subheading {
+  padding-top: 10px;
+}
+
+.expense {
+  padding-top: 12px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #a9dfd8;
+}
+
+.detail {
+  padding-top: 12px;
+  font-size: 11px;
+}
+
+.flx-4 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 20px;
+  gap: 14px;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
+}
