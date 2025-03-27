@@ -52,3 +52,17 @@
   letter-spacing: -1%;
   cursor: pointer;
 }
+
+.professional-section {
+  padding-top: 40px;
+  padding-inline: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}

@@ -1,0 +1,44 @@
+.card {
+  min-width: 337px;
+  max-height: 197px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  gap: 24px;
+  transition: 300ms ease-out;
+  cursor: pointer;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-inline: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.card-body {
+  padding-inline: 24px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+.card-footer {
+  padding-inline: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
