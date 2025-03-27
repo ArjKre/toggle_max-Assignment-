@@ -6,7 +6,7 @@ import userIcon from "../assets/Ellipse 43.svg";
 import logoutIcon from "../assets/move_item.svg";
 
 function Navbar() {
-  const [activeBtn, setActiveBtn] = useState("btn1");
+  const [activeBtn, setActiveBtn] = useState("button2");
 
   return (
     <div className="navbar">
